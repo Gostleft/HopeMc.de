@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #05070d;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0a0f1f;
+    box-shadow: 0 0 10px #00f0ff;
+}
+
+.logo {
+    color: #00f0ff;
+    text-shadow: 0 0 10px #00f0ff;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #00f0ff;
+    text-shadow: 0 0 20px #00f0ff;
+}
+
+.features {
+    padding: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: #0a0f1f;
+    border: 1px solid #00f0ff;
+    box-shadow: 0 0 10px #00f0ff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00f0ff;
+}
+
+.stats {
+    padding: 40px;
+    text-align: center;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.stat {
+    font-size: 20px;
+    border: 1px solid #00f0ff;
+    padding: 20px;
+    box-shadow: 0 0 10px #00f0ff;
+}
+
+.panel {
+    padding: 40px;
+}
+
+.panel-box {
+    margin: 20px 0;
+    padding: 20px;
+    background: #0a0f1f;
+    border: 1px solid #00f0ff;
+    box-shadow: 0 0 10px #00f0ff;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #00f0ff;
+    color: #00f0ff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00f0ff;
+    color: black;
+    box-shadow: 0 0 10px #00f0ff;
+}
